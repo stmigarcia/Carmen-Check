@@ -2,7 +2,6 @@
 # statement to grab a curl of a server, append it to a csv file
 if [ -f /tmp/carmen_results.csv ]; 
 then
-	echo "File not found"
 	else	
 		touch /tmp/carmen_results.csv
 fi		
