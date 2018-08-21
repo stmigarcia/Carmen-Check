@@ -3,6 +3,6 @@
 
 while true; 
 do 
-  ./stevescript.sh >> carmen_results.csv
-  sleep 20
+  ./total_requests.sh >> carmen_results.csv
+  sleep 10
 done
