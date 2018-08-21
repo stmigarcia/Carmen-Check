@@ -2,7 +2,7 @@
 # statement to grab a curl of a server, append it to a csv file
 while true;
 do
-./total_requests.sh >> carmen_results.csv
+./total_requests.sh < carmen_results.csv
 
 #if statement to exclude known total value
 
